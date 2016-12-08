@@ -1,4 +1,4 @@
-# Kaggle Titanic Challenge
+# Kaggle Titanic Challenge ---
 # What key factors determined survival from this data set?
 # Build a classification model. 
 "
