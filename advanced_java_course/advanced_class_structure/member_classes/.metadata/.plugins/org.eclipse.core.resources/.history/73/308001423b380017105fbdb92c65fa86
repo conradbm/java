@@ -1,0 +1,33 @@
+import java.awt.Color;
+import java.util.ArrayList;
+
+
+public class OliveJar {
+	
+	// Properties
+	public ArrayList<Olive> olives;
+	
+	// Static Initializers
+	{
+		// Make sure every oliveJar gets a golden olive
+		System.out.println("Initializing..");
+		olives = new ArrayList<Olive>();
+	}
+	
+	// Constructors
+	public OliveJar(){
+		System.out.println("Constructing ...");
+	}
+	
+	public OliveJar(int nOlives, String incName, Color incColor){
+		
+	}
+	
+	// Member Classes
+	private class Olive{
+		
+		public static final long BLACK = 0x000000;
+		public String oliveName;
+		public Color color;
+	}
+}

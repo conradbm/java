@@ -1,0 +1,10 @@
+import java.awt.Color;
+
+
+public class Main {
+	public static void main(String[] args) {
+		OliveJar oj = new OliveJar(5, "Orango", Color.BLUE);
+		oj.addOlive("Gangsta", Color.RED);
+		oj.reportOlives();
+	}
+}
